@@ -1,5 +1,5 @@
 class Dog
-  def initialize(name, breed)
+  def initialize(name, breed = "Mutt")
     @name = name
     @breed = breed
   end
@@ -25,6 +25,4 @@ fido.name
 fido.breed
 
 fido.instance_variable_get(:@name)
-fido.instance_variable_get(:@breed)
-fido.instance_variable_set(:@breed, "Mutt")
 fido.instance_variable_get(:@breed)
