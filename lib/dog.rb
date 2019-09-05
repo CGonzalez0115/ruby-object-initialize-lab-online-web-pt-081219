@@ -32,6 +32,6 @@ fido = Dog.new("Pug")
 fido.breed = "Pug"
 fido.breed
 
-
+fido.instance_variable_get(:@breed)
 fido.instance_variable_set(:@breed, "Mutt")
 fido.instance_variable_get(:@breed)
