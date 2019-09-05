@@ -19,16 +19,11 @@ class Dog
     @breed
   end
 end
-fido = Dog.new("Fido")
+fido = Dog.new("Fido", "Pug")
 fido.name
+fido.breed
 
 fido.instance_variable_get(:@name)
-
-fido = Dog.new
-fido.breed
-fido.breed = "Pug"
-fido.breed
-
 fido.instance_variable_get(:@breed)
 fido.instance_variable_set(:@breed, "Mutt")
 fido.instance_variable_get(:@breed)
