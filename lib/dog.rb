@@ -14,7 +14,7 @@ end
 fido = Dog.new("Fido")
 fido.name
 
-puts fido.name
+fido.instance_variable_get(:@name)
 
 class Dog
   def breed=(breed)
