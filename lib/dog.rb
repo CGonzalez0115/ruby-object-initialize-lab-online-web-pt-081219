@@ -14,6 +14,8 @@ end
 fido = Dog.new("Fido")
 fido.name
 
+puts fido.name
+
 class Dog
   def breed=(breed)
     @breed = breed
