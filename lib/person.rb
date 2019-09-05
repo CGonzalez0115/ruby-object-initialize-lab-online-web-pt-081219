@@ -16,4 +16,3 @@ beyonce = Person.new("Beyonce")
 beyonce.name
 
 beyonce.instance_variable_get(@name)
-    
