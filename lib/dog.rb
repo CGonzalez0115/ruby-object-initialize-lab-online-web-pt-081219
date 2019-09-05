@@ -10,13 +10,7 @@ class Dog
   def name
     @name
   end
-end
-fido = Dog.new("Fido")
-fido.name
 
-fido.instance_variable_get(:@name)
-
-class Dog
   def breed=(breed)
     @breed = breed
   end
@@ -25,6 +19,11 @@ class Dog
     @breed
   end
 end
+fido = Dog.new("Fido")
+fido.name
+
+fido.instance_variable_get(:@name)
+
 fido = Dog.new
 fido.breed
 fido.breed = "Pug"
