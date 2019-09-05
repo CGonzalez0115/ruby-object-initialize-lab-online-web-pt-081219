@@ -11,7 +11,6 @@ class Dog
     @name
   end
 end
-
 fido = Dog.new("Fido")
 fido.name = "Fido"
 fido.name
@@ -29,8 +28,7 @@ class Dog
     @breed
   end
 end
-
-fido.new("Pug")
+fido.Dog.new("Pug")
 fido.breed = "Pug"
 fido.breed
 
